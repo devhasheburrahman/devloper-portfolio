@@ -83,6 +83,7 @@ section {
     font-size: 18px;
     margin-bottom: 30px;
     /* margin-bottom: 20px; */
+    text-align: left;
 }
 
 /* main section */
@@ -138,7 +139,7 @@ main {
     text-align: center;
     margin-top: 100px;
     margin-bottom: 50px;
-    font-size: 20px;
+    bt font-size: 20px;
     color: #757575;
 }
 
@@ -214,3 +215,30 @@ main {
     margin: 50px;
     text-align: center;
 }
+
+/* contact style */
+.contact {
+    display: flex;
+    gap: 100px;
+    background: #FFF8F3;
+    padding: 130px 200px;
+}
+
+.contact.section-title {
+    text-align: left;
+
+}
+
+.contact input,
+textarea {
+    margin-bottom: 24px;
+    border: 0;
+    width: 100%;
+    padding: 18px 30px;
+}
+
+input {
+    height: 64px;
+}
+
+.section-d {}
